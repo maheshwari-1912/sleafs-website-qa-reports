@@ -1,0 +1,10 @@
+BUG_ID,SUMMARY,,TEST_CASE_ID,,STEPS TO REPRODUCE,,,EXPECTED RESULT,,ACTUAL RESULT,,ATTACHMENTS,,SEVERITY,PRIORITY,STATUS
+,,,,,,,,,,,,,,,,
+BUG_001,login with empty username,,TC_LOGIN_003,,1. Leave username empty 2. Enter Password. 3. Enter CAPTCHA. 4. Click Sign In.,,,validation message disappear,,validation message is appear,,,,medium,high,Fail
+BUG_002,login with empty password,,TC_LOGIN_004,,1. enter username. 2. leave empty Password. 3. Enter CAPTCHA. 4. Click Sign In.,,,validation message disappear,,validation message is appear,,,,medium,high,Fail
+BUG_003,login with empty Captcha,,TC_LOGIN_005,,1. Enter valid username. 2. Enter valid Password. 3. Enter wrong CAPTCHA. 4. Click Sign In.,,,validation message disappear,,validation message is appear,,,,medium,high,Fail
+BUG_004,verify position accepts only numbers,,TC_CATEGORY_010,,enter letters in position,,,validation message disappear,,validation message is appear,,,,medium,medium,Fail
+BUG_005,verify accepted option,,TC_ORDERS_046,,click accepted,,,accepted orders displayed,,accepted orders are not displayed,,,,medium,high,Fail
+BUG_006,verify shipped option,,TC_ORDERS_047,,click shipped,,,shipped orders displayed,,shipped orders are  not displayed,,,,medium,high,Fail
+BUG_007,verify delivered option,,TC_ORDERS_048,,click delivered,,,delivery orders displayed,,delivered orders are not displayed,,,,medium,high,Fail
+BUG_008,verify canceled option,,TC_ORDERS_049,,click canceled,,,cancelled orders displayed,,cancelled orders are not displayed,,,,medium,high,Fail
